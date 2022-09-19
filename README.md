@@ -1,2 +1,2 @@
 # BPortfolio
-Portfolio to work on
+:) Improvements on a sophesticated website.
