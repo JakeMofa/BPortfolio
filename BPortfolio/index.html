@@ -1,41 +1,772 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jake Mofa</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- Link Css Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-<body>
+  
+    <!-- Link cloudflare -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Link CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
     <header id="Head" class="Classhead">
-        <nav class="navbar">
-            <ul>
-                <li><a href=#Home>
-                        <Home>
-                    </a>
-                <li>
-                <li><a href=#Home>
-                        <About>
-                    </a>
-                <li>
-                <li><a href=#Home>
-                        <Experience>
-                    </a>
-                <li>
-                <li><a href=#Home>
-                        <Projects>
-                    </a>
-                <li>
-                <li><a href=#Home>
-                        <Contact>
-                    </a>
-                <li></li>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#about">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Skill</a></li>
+          <li><a href="#about">Experience</a></li>
+          <li><a href="#about">Projects</a></li>
+          <li><a href="#about"> blog</a></li>
+          <li><a href="#about"> Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+      <div class="row">
+        <div class="content">
+          <h1 class="banner">Hello!,</h1>
+
+          <h3 class="slogan">My name is Jake Mofa</h3>
+          <a
+            href="/BPortfolio/IResume.docx (2).pdf"
+            download="/BPortfolio/IResume.docx (2).pdf"
+            ><button>Download cv</button></a
+          >
+        </div>
+        <div class="image">
+          <img
+            src="/BPortfolio/Images/Slide1.jpeg"
+            alt="My Photo"
+            class="photo"
+          />
+        </div>
+      </div>
+
+      <div class="wave wave1"></div>
+      <div class="wave wave2"></div>
+      <div class="wave wave3"></div>
+
+      <div class="fas fa-cog nut1"></div>
+      <div class="fas fa-cog nut2"></div>
+    </section>
+
+    <!-- About me -->
+
+    <section id="about" class="about" data-aos="fade-up">
+      <h1 class="heading">About Me</h1>
+      <div class="row">
+        <div class="content" data-aos="fade-right">
+          <h3>WHO AM I?</h3>
+          <p>
+            Hello!, My name is Jake Mofa, and I am a Python Developer who has
+            expertise in Back end Development, Learning and discovering the
+            aspects of a Front-end Developer, while striving to do Full Stack
+            development. <br /><br />
+            But i still consider my self as an inspired Softwaer Engineer always
+            ready to learn everything haha! and push my self beyond and surpassing my limit
+            <br /><br />
+            I am based in the bay area of California, and currently, a Computer
+            science major at San Jose State University, who has taken some time
+            off ,while still Pursuing my Bachelor's to understand and defluster
+            the reality of coding. <br /><br />
+
+            I take my time to learn new frameworks, Take on new Projects,
+            Utilize Databases, build websites and build scripts Specializing in
+            the reconstruction of Algorithm Data structures, designing,
+            deploying, and debugging development projects, with a constituent of
+            automation. I am inspired to take on new projects.<br /><br />
+            I love to look for the hardest problems to solve where I can develop
+            the most, Deeming every obstacle ahead of me and overcoming them. I
+            seek new opportunities to develop my skills further and grow
+            professionally.
+          </p>
+
+          <a href="#"><button class="btn">Read More...</button></a>
+        </div>
+
+        <section class="container" data-aos="fade-up">
+          <div class="card">
+            <div class="card-image car-1"></div>
+            <h2>GreeK Mythology and Norse Mythology</h2>
+            <p>
+              I usually spend my free time learning, studying, and take an
+              interest in exploring the dive of the greek Mythology and Norse
+              Mythology time line.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-image car-2"></div>
+            <h2>Photography</h2>
+            <p>
+              These are some picutes that i take during my free time and more of
+              one of my hobbbies.
+            </p>
+          </div>
+          <div class="card">
+            <div class="card-image car-3"></div>
+            <h2>Researching and Learning</h2>
+            <p>
+              This is Currently how my setup looks like, and in this picture i
+              was learning and understanding how React and Reactnative adjusts
+              on mobile devices.
+            </p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- Skill set -->
+    <section id="service" class="service" data-aos="fade-up">
+      <h1 class="heading">Skills</h1>
+      <p>These are my skills</p>
+      <div class="row">
+        <section>
+          <header>Skills</header>
+          <div class="skill">
+              <div class="set">
+                  <span class ="fas fa-globe"></span>
+                  <header>WebDevelopment</header>
+                  <div class="list">
+                      <label>HTML</label>
+                      <i class="fab fa-html5"></i>
+                  </div>
+                  <div class="list">
+                      <label>CSS</label>
+                      <i class="fab fa-css3"></i>
+                  </div>
+                  <div class="list">
+                      <label>JavaScript</label>
+                      <i class="fab fa-js"></i>
+                  </div>
+                  <div class="list">
+                      <label>PHP</label>
+                      <i class="fab fa-php"></i>
+                  </div>
+                  
+  
+              </div>
+           
+  
+              <div class="set">
+                  <span class ="fas fa-tools"></span>
+                  <header>Frameworks</header>
+                  <div class="list">
+                      <label>Laravel</label>
+                      <i class="fab fa-laravel"></i>
+                  </div>
+                  <div class="list">
+                      <label>Node.JS</label>
+                      <i class="fab fa-node-js"></i>
+                  </div>
+                  <div class="list">
+                      <label>Angular</label>
+                      <i class="fab fa-angular"></i>
+                  </div>
+                  <div class="list">
+                      <label>Bootstrap</label>
+                      <i class="fab fa-bootstrap"></i>
+                  </div>
+                  
+  
+              </div>
+  
+              <div class="set">
+                  <span class ="fas fa-mobile-alt"></span>
+                  <header> Mobile Application</header>
+                  <div class="list">
+                      <label>Android</label>
+                      <i class="fab fa-android"></i>
+                  </div>
+                  <div class="list">
+                      <label>Ios</label>
+                      <i class="fab fa-apple"></i>
+                  </div>
+                  <div class="list">
+                      <label>React</label>
+                      <i class="fab fa-react"></i>
+                  </div>
+               
+                  
+  
+              </div>
+  
+          </div>
+      </section>
+        <!-- <div class="content">
+          <h3>Machine Learning</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
+            quia autem consequuntur et eveniet odio veniam non molestias,
+            distinctio amet corporis libero maiores recusandae esse deserunt
+            dolor. Excepturi, sunt fugit!
+          </p>
+          <a href="#"><button class="btn">Read More</button></a>
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="content">
+          <h3>Arcesium Warzone</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
+            quia autem consequuntur et eveniet odio veniam non molestias,
+            distinctio amet corporis libero maiores recusandae esse deserunt
+            dolor. Excepturi, sunt fugit!
+          </p>
+          <a href="#"><button class="btn">Read More</button></a>
+        </div>
+        <div class="image">
+          <img src="./svgs/Website setup-pana.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="image">
+          <img src="./svgs/Mobile Marketing-pana.svg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Happy Life</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
+            quia autem consequuntur et eveniet odio veniam non molestias,
+            distinctio amet corporis libero maiores recusandae esse deserunt
+            dolor. Excepturi, sunt fugit!
+          </p>
+          <a href="#"><button class="btn">Read More</button></a>
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="content">
+          <h3>Technical Support</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
+            quia autem consequuntur et eveniet odio veniam non molestias,
+            distinctio amet corporis libero maiores recusandae esse deserunt
+            dolor. Excepturi, sunt fugit!
+          </p>
+          <a href="#"><button class="btn">Read More</button></a>
+        </div>
+
+        <div class="image">
+          <img src="./svgs/Website setup-amico.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="image">
+          <img src="./svgs/Cloud hosting-amico.svg" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>Support Us</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
+            quia autem consequuntur et eveniet odio veniam non molestias,
+            distinctio amet corporis libero maiores recusandae esse deserunt
+            dolor. Excepturi, sunt fugit!
+          </p>
+          <a href="#"><button class="btn">Read More</button></a>
+        </div>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="content">
+          <h3>The End-Game</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
+            quia autem consequuntur et eveniet odio veniam non molestias,
+            distinctio amet corporis libero maiores recusandae esse deserunt
+            dolor. Excepturi, sunt fugit!
+          </p>
+          <a href="#"><button class="btn">Read More</button></a>
+        </div>
+        <div class="image">
+          <img src="./svgs/Design tools-cuate.svg" alt="" />
+        </div>
+      </div> -->
+    </section>
 
 
-</body>
+
+    <section class="team" id="team" data-aos="fade-up">
+
+      <h1 class="heading">Interesting Facts</h1>
 
 
+      <div class="row">
+          <div class="card" data-aos="fade-up">
+              <div class="image">
+                  <img src="./svgs/Cloud hosting-pana.svg" alt="">
+              </div>
+
+              <div class="info">
+                  <h3>Freshee</h3>
+                  <span>Web Desing</span>
+                  <div class="icons">
+                      <a href="" class="fab fa-facebook"></a>
+                      <a href="" class="fab fa-instagram"></a>
+
+                      <a href="" class="fab fa-linkedin"></a>
+
+                      <a href="" class="fab fa-twitter"></a>
+
+                       
+
+                      <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                      <a href="" class="fab fa-tiktok"></a>
+                      <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="card" data-aos="fade-up">
+              <div class="image">
+                  <img src="./svgs/Web devices-cuate.svg" alt="">
+              </div>
+
+              <div class="info">
+                  <h3>Fresher!</h3>
+                  <span>Web Desing</span>
+                  <div class="icons">
+                      <a href="" class="fab fa-facebook"></a>
+                      <a href="" class="fab fa-instagram"></a>
+
+                      <a href="" class="fab fa-linkedin"></a>
+
+                      <a href="" class="fab fa-twitter"></a>
+
+                      <a href="" class="fab fa-reddit"></a>
+
+                      <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                      <a href="" class="fab fa-tiktok"></a>
+                      <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="card" data-aos="fade-up">
+              <div class="image">
+                  <img src="./svgs/Mobile apps-cuate.svg" alt="">
+              </div>
+
+              <div class="info">
+                  <h3>Fresh zz</h3>
+                  <span>Web Desing</span>
+                  <div class="icons">
+                      <a href="" class="fab fa-facebook"></a>
+                      <a href="" class="fab fa-instagram"></a>
+
+                      <a href="" class="fab fa-linkedin"></a>
+
+                      <a href="" class="fab fa-twitter"></a>
+
+                      <a href="" class="fab fa-reddit"></a>
+
+                      <!-- <a href="" class="fab fa-snapchat"></a> -->
+
+                      <a href="" class="fab fa-tiktok"></a>
+                      <!-- <a href="" class="fab fa-spotify"></a> -->
+
+
+
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </section>
+
+
+
+
+
+    <!-- Experience -->
+<!-- <section class="colorlib-experience" data-section="experience">
+
+  <div class="timeline-entry-inner">
+    <div class="timeline-icon color-2" style="brackground-size: contain; background-image: url(##)"></div>
+    <div class="timeline-label">
+       <h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus adip
+       
+       <br>
+       <span> SOme more text</span>
+       <br>
+       <span>Some date</span>
+      </h2>
+      <ul style="list-style-circle">
+        <li>some text 1</li>
+        <li>some text 2</li>
+        <li>some text 3</li>
+        <li>some text 4</li>
+        <li>some text 5</li>
+        
+      </ul>
+
+    </div>
+  </div>
+</section> -->
+<section class="colorlib-experience" data-section="experience">
+  <div class="colorlib-narrow-content">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+        <span class="heading-meta">Experience</span>
+        <h2 class="colorlib-heading animate-box">Work Experience</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+           <div class="timeline-centered">
+
+
+             <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                <div class="timeline-entry-inner">
+                   <div class="timeline-icon color-2" style="background-size: contain;background-image: url(images/icons/ul.png)">
+                   </div>
+                   <div class="timeline-label">
+                     <h2>DataBase Expert <br> 
+                       <span>Iron Mountain</span> <br>
+                       <span>April 2022 - Present</span>
+                     </h2>
+                        <ul style="list-style:circle;">
+                 <li>Maintained maximum organization with NoSQL cloud service, by properly sortingproject components on work tables using data visualization</li>
+                  <li>Results-oriented quality assurance tester with expertise in a fast-paced SQL startup.With quick Software development life cycles.</li>
+                  <li>Participated in the maintenance and quality assurance of NoSQL ECO projects, after accurate quality assessment, then deployed to the offshore team.</li>
+                  <li>Conducted the flow of the database, using Automation built with python, to swiftly back up company data to the cloud</li>
+                  <li>Utilized substantial API, used in importing and exporting data within development
+                    scripts.</li>
+              </ul>
+                   </div>
+                </div>
+             </article>
+
+             <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                <div class="timeline-entry-inner">
+                   <div class="timeline-icon color-2" style="background-size: contain;background-image: url(images/icons/tbp.JPG)">
+                   </div>
+                   <div class="timeline-label">
+                     <h2>Product Expert<br> 
+                       <span> IRobot(BDS Solution)</span> <br>
+                       <span>May 2017 - June 2018</span>
+                     </h2>
+                        <ul style="list-style:circle;">
+                 <li>Delivered unit-tested systems with required characteristics and within customer-prescribed timeframes.</li>
+                  <li>Conducted regression testing, analyzed results, and submitted observations to the development team.</li>
+                  <li>Conducted integration test types ranging from data to Database</li>
+                  <li> Orchestrated and developed holistic systems for IT management and Process-centric BPM</li>
+                  <li>Identified possible system enhancements to improve the functionality and streamline administration.</li>
+
+              </ul>
+                   </div>
+                </div>
+             </article>
+
+             <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+                <div class="timeline-entry-inner">
+                   <div class="timeline-icon color-2" style="background-size: contain;background-image: url(images/icons/sjsu.png)">
+                   </div>
+                   <div class="timeline-label">
+                     <h2>Fashionista Africa <br> 
+                       <span>Backend-Developer</span> <br>
+                       <span>Feb 2020 - October 2021</span>
+                     </h2>
+                      
+                        <ul style="list-style:circle;">
+                 <li>Conducted data modeling, performance, and integration testing.</li>
+                  <li>Monitored and maintained, back-end cloud MYSQL, Connecting user-facing front end with all important back-end functionality and data.</li>
+                  <li>Identified possible system enhancements to improve functionality and streamline administration.</li>
+                  <li>Designed, developed, modified, and debugged programs.</li>
+                  <li> Orchestrated with backend team to restructure API and reduced number of API request queries by 28%.</li>
+              </ul>
+                   </div>
+                </div>
+             </article>
+
+             <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                <div class="timeline-entry-inner">
+                   <div class="timeline-icon color-2" style="background-size: contain;background-image: url(images/icons/bintang.JPG)">
+                   </div>
+                   <div class="timeline-label">
+                     <h2>Assistant Jr Software Engineer
+                       <br> 
+                       <span>Gaz Du Cameroun</span> <br>
+                       <span>March 2018 - Feb 2020</span>
+                     </h2>
+                        <ul style="list-style:circle;">
+                <li>Orchestrated efficient large-scale software deployments with AWS and designed technology solutions that met or exceeded performance expectations.</li>
+                <li>Utilized cloud foundry for efficient building on top of Kubernetes</li>
+                <li> Developed several algorithms Python script automation for daily maintenance, of data visualization charts, indexes, tables, and data analyses.</li>
+                <li>Designed and maintained streamlined, reusable, and reliable code for use within distributed cloud environments(AWS, PostgreSQL, NoSQL).</li>
+                <li>Efficiently deployed and integrated software engineered by our team and updated integration/deployment scripts to improve continuous integration practices.</li>
+                <li>Maintained CI/CD streamlines, by establishing a service to test code quality by going through Source, Build, Test then deploy, integrating new code for development and deployment.</li>				 
+              </ul>
+                   </div>
+                </div>
+             </article>
+
+             <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+                <div class="timeline-entry-inner">
+                   <div class="timeline-icon color-none">
+                   </div>
+                </div>
+             </article>
+          </div>
+       </div>
+     </div>
+  </div>
+</section>
+    
+
+<!-- Projects -->
+
+<section class="colorlib-work" data-section="projects">
+  <div class="colorlib-narrow-content">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+        <span class="heading-meta">Projects</span>
+        <h2 class="colorlib-heading animate-box">My Projects</h2>
+      </div>
+    </div>
+    <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+      <div class="col-md-12">
+        <p class="work-menu">
+          <span><a onclick="openWorkMenuContent(event, 'menu1')" class="work-menu-links" id="defaultOpen">Software Projects</a></span> 
+          <span><a onclick="openWorkMenuContent(event, 'menu2')" class="work-menu-links">Client Sites</a></span> 
+          <span><a onclick="openWorkMenuContent(event, 'menu3')" class="work-menu-links">Creative</a></span> 
+        </p>
+      </div>
+    </div>
+    <div id="menu1" class="work-menu-content" class="row">
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+        <div class="project" style="background-image: url(images/fish.jpg);">
+          <div class="desc">
+            <div class="con">
+              <h3>Rin</h3>
+              <span>Mobile Application: React Native, Google Firebase, Google Storage</span>
+              <p class="icon">
+                <span><a target="_blank" href="https://github.com/KungPaoMushu/rin"><i class="icon-github"></i></a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+        <div class="project" style="background-image: url(WebsitePic/Dividends/Figure_1.png);">
+          <div class="desc">
+            <div class="con">
+              <h3>Aym</h3>
+              <span>iOS Application: Objective-C, Django</span>
+              <span>Landing Page</span>
+              <p class="icon">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+        <div class="project" style="background-image: url(images/projects/software/hotels/1.png);">
+          <div class="desc">
+            <div class="con">
+              <h3>IDCV Hotels</h3>
+              <span>Web Application: Vue.js, Google Firebase</span>
+              <p class="icon">
+                <span><a target="_blank" href="https://github.com/williamjphu/se165project"><i class="icon-github"></i></a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+        <div class="project" style="background-image: url(images/projects/software/safeway/1.png);">
+          <div class="desc">
+            <div class="con">
+              <h3>MiniSafeway Redesign</h3>
+              <span>Web Application: Vue.js, Google Firebase </span>
+              <p class="icon">
+                <span><a target="_blank" href="https://github.com/michaelhyun/CMPE133Project"><i class="icon-github"></i></a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+        <div class="project" style="background-image: url(images/projects/software/recipeCollective/1.png);">
+          <div class="desc">
+            <div class="con">
+              <h3>Recipe Collective</h3>
+              <span>Web Application: Ruby on Rails</span>
+              <p class="icon">
+                <span><a target="_blank" href="https://github.com/KungPaoMushu/whatHands"><i class="icon-github"></i></a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="menu2" class="work-menu-content" class="row">
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+        <div class="project" style="background-image: url(images/projects/clients/yersen.png);">
+          <div class="desc">
+            <div class="con">
+              <h3><a target="_blank" href="http://yersengelato.com">Yersen Gelato</a></h3>
+              <span>Website, Photography, Instagram Integration</span>
+              <p class="icon">
+                <span><a target="_blank" href="http://yersengelato.com"><i class="icon-eye"></i> Open Site</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+        <div class="project" style="background-image: url(images/projects/clients/upliftingyourhealth.jpg);">
+          <div class="desc">
+            <div class="con">
+              <h3><a target="_blank" href="http://upliftingyourhealth.com">Uplifting Your Health</a></h3>
+              <span>Website, Messenger Bot, Electronic Patient Forms, Scheduling System</span>
+              <p class="icon">
+                <span><a target="_blank" href="http://upliftingyourhealth.com"><i class="icon-eye"></i> Open Site</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+        <div class="project" style="background-image: url(images/projects/clients/dreammaker.jpg);">
+          <div class="desc">
+            <div class="con">
+              <h3><a target="_blank" href="http://dreammakerconstruction.com">Dreammaker Construction</a></h3>
+              <span>Website</span>
+              <p class="icon">
+                <span><a target="_blank" href="http://dreammakerconstruction.com"><i class="icon-eye"></i> Open Site</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="menu3" class="work-menu-content" class="row">
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+        <div class="project" style="background-image: url(images/projects/creative/people.jpg);">
+          <div class="desc">
+            <div class="con">
+              <h3><a target="_blank" href="https://www.flickr.com/photos/141413809@N04/albums/72157703603087445">Portrait Photograpy</a></h3>
+              <span>Professional, candid, indoor, outdoor</span>
+              <p class="icon">
+                <span><a target="_blank" href="https://www.flickr.com/photos/141413809@N04/albums/72157703603087445"><i class="icon-eye"></i> See more</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+        <div class="project" style="background-image: url(images/projects/creative/travel.jpg);">
+          <div class="desc">
+            <div class="con">
+              <h3><a target="_blank" href="https://www.flickr.com/photos/141413809@N04/albums/72157703509790334">Personal Photograpy</a></h3>
+              <span>My personal travel photos, cityscapes, food, hobbies</span>
+              <p class="icon">
+                <span><a target="_blank" href="https://www.flickr.com/photos/141413809@N04/albums/72157703509790334"><i class="icon-eye"></i> See more</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+        <div class="project" style="background-image: url(images/projects/creative/event.jpg);">
+          <div class="desc">
+            <div class="con">
+              <h3><a target="_blank" href="https://www.flickr.com/photos/141413809@N04/albums/72157673547852887">Event Photograpy</a></h3>
+              <span> Expos, Conferences, Group Activities</span>
+              <p class="icon">
+                <span><a target="_blank" href="https://www.flickr.com/photos/141413809@N04/albums/72157673547852887"><i class="icon-eye"></i> See more</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+        <div class="project" style="background-image: url(images/projects/creative/collage.jpg);">
+          <div class="desc">
+            <div class="con">
+              <h3 style="color: #FFF">Personal Collage</h3>
+              <span> Graphic Design Project using Adobe Photoshop/Illustrator</span>
+              <p class="icon">
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+
+<script>
+function openWorkMenuContent(evt, menuNumber) {
+// Declare all variables
+var i, workMenuContent, workMenuLinks;
+
+// Get all elements with class="tabcontent" and hide them
+workMenuContent = document.getElementsByClassName("work-menu-content");
+for (i = 0; i < workMenuContent.length; i++) {
+  workMenuContent[i].style.display = "none";
+}
+
+// Get all elements with class="tablinks" and remove the class "active"
+workMenuLinks = document.getElementsByClassName("work-menu-links");
+for (i = 0; i < workMenuLinks.length; i++) {
+  workMenuLinks[i].className = workMenuLinks[i].className.replace(" active", "");
+}
+
+// Show the current tab, and add an "active" class to the button that opened the tab
+document.getElementById(menuNumber).style.display = "block";
+evt.currentTarget.className += " active";
+}
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 800,
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./main.js"></script>
 </html>
